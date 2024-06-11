@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(214, 248, 248);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-color: rgb(199, 223, 228);
+}
+.portada{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portada img{
+    width: 400px;
+    height: 380px;
+}
+.nombre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nombre{
+    font-size: 40px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section p{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(196, 208, 219);
+    margin: 0;
+    padding: 5px;
+}
+.lista{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
