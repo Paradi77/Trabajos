@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="arreglos.js"></script>
+</head>
+<body>
+    <h1>JavaScript</h1>
+    <p>hola mundo</p>
+    <form action="" method="post">
+      <div>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+      </div>
+      <div>
+        <label for="Apellido">Apellido:</label>
+        <input type="text" id="Apellido" name="Apellido">
+      </div>   
+      <div>
+        <label for="Legajo">Legajo:</label>
+        <input type="text" required id="Legajo" name="Legajo">
+      </div>   
+      <div>
+        <label for="email">Correo Electronico:</label>
+        <input type="email" id="email" name="email">
+      </div>   
+      <button type="button"> Enviar</button>
+    </form>
+    <h2>Materias y Notas</h2>
+    <div>
+        <label for="materia1">Materia 1</label>
+        <input type="text" id="materia1" name="materia1">
+        <input type="number" id="nota1" name="nota1" min="0" max="10">
+    </div>
+    <div>
+        <label for="materia2">Materia 2</label>
+        <input type="text" id="materia2" name="materia2">
+        <input type="number" id="nota2" name="nota2" min="0" max="10">
+    </div>
+    <div>
+        <label for="materia3">Materia 3</label>
+        <input type="text" id="materia3" name="materia3">
+        <input type="number" id="nota3" name="nota3" min="0" max="10">
+    </div>
+    <div>
+        <label for="materia4">Materia 4</label>
+        <input type="text" id="materia4" name="materia4">
+        <input type="number" id="nota4" name="nota4" min="0" max="10">
+    </div>
+    <div>
+        <label for="materia5">Materia 5</label>
+        <input type="text" id="materia5" name="materia5">
+        <input type="number" id="nota5" name="nota5" min="0" max="10">
+    </div>
+    <button type="button" onclick="validarFormulario()">Promedio</button>
+
+    <div id="errorMensaje" class="error">Por favor complete los datos de forma correcta</div>
+    <div id="promedio" class="result"></div>
+</body>
+</html>
